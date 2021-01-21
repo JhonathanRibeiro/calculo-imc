@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+:root {
+    --primary-color: #001b55e3;
+    --primary-color-darker: #001b55f5;
+}
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 650px;
+    margin: 25px auto;
+    background: #ffff;
+    padding: 20px;
+    box-shadow: 1px 10px #fff;
+    border-radius: 5px;
+}
+
+form input,
+form label,
+form button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+for input:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px 0;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+}
+
+form button:active {
+    background: #001677ce
+}
+
+.success {
+    background: #02e659;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.warning {
+    background: #e6d702;
+    color: #141414b0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.danger {
+    background: #e61d02f5;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.col {
+    display: inline-flex;
+    width: 100%;
+    clear: both;
+    /* padding: 5px; */
+    /* border: 1px solid; */
+}
+.col-right {
+    width: 100%;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    float: right;
+}
+
+.col-left {
+    width: 100%;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    float: left;
+}
