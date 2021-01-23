@@ -1,6 +1,6 @@
 # Calculadora de IMC
 <p>A calculadora do IMC pode te ajudar a entender se o seu peso está de acordo com a sua altura e, assim, 
-verificar se há risco de desenvolver alguma doença. Insira seus dados na calculadora <a href="https://jhonathanribeiro.github.io/calculo-imc/">clicando aqui</a> e veja qual é o seu IMC.</p>
+verificar se há risco de desenvolver alguma doença. Insira seus dados na calculadora <a target="_blank" href="https://jhonathanribeiro.github.io/calculo-imc/">clicando aqui</a> e veja qual é o seu IMC.</p>
 
 ### O QUE É O ÍNDICE DE MASSA CORPORAL (IMC)?
 <p>O índice de massa corporal é um relevante indicador de saúde, cuja utilidade já foi comprovada por vários estudos científicos.</p>
